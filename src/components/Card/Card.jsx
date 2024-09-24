@@ -9,7 +9,7 @@ const Card = ({ticket, getUserById}) => {
         <div className='pic'>
           <img
             className="profile-pic"
-            src="/assets/images/profile.png"
+            src="/assets/images/profile.svg"
             alt="Profile"
           />
           <span className="profile-dot"></span>

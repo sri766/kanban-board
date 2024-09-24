@@ -78,9 +78,9 @@ const Board = () => {
             <div key={group} className="display-group">
               <div className='group-nav'>
                 <div className="nav">
-                  {/* <img src={NavIcon(group, group)} alt={group} />
-                   */}
-                  <img src="/assets/icons/in-progress.svg" alt="" />
+                  {/* <img src={NavIcon(group, group)} alt={group} /> */}
+                  
+                  <img src="/assets/icons/Done.svg" alt="" />
                   <p>{group}</p>
                   <p>{groupedTickets[group].count}</p>
                 </div>
