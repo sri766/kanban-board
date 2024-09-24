@@ -1,7 +1,9 @@
+
 .kanban-container{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
+    padding: 10px;
 }
 
 .group-nav{
@@ -9,6 +11,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
+    padding: 2px 10px;
 }
 
 .nav{
